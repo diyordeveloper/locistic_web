@@ -1,0 +1,31 @@
+.menu_bar__ {
+  background: #ffffff;
+  border-right: 1px solid #d6e4ff80;
+  padding: 0px 21px;
+  display: flex;
+  flex-direction: column;
+  height: 89vh;
+}
+.menu_bar__ .link_btn__ {
+  padding: 21px 0;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 21px;
+  color: #c3cace;
+  border-bottom: 1px solid #d6e4ff80;
+}
+.menu_bar__ .link_btn__.active {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #3461ff;
+}
+.menu_bar__ .link_btn__.active .icon__ {
+  color: #3461ff;
+}
+.menu_bar__ .link_btn__ span {
+  padding: 2px 0 0 17px;
+}

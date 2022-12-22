@@ -1,0 +1,81 @@
+.navbar__ {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 41px;
+  background: #ffffff;
+  border-bottom: 1px solid #d6e4ff80;
+}
+.navbar__ .logo__ .logo__svg {
+  width: 86px;
+}
+.navbar__ .nav__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__ .nav__block .block__1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-right: 1px solid #d6e4ff80;
+  padding: 0 30px;
+}
+.navbar__ .nav__block .block__1 .search__ {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d6e4ff;
+  border-radius: 3px;
+}
+.navbar__ .nav__block .block__1 .search__ input {
+  outline: none;
+  background: transparent;
+  border: none;
+  padding: 13px 10px 10px 0;
+  color: #3461ff;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 15px;
+  line-height: 19px;
+}
+.navbar__ .nav__block .block__1 .search__ input::placeholder {
+  color: #3461ff;
+}
+.navbar__ .nav__block .block__1 .search__ img {
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  border: none;
+  padding: 10px;
+}
+.navbar__ .nav__block .block__1 .icons__ a:nth-child(1) img {
+  padding: 0 23px 0 28px;
+}
+
+/* Users */
+
+.navbar__ .nav__block .block__2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.navbar__ .nav__block .block__2 .avatarka__ {
+  border: 2px solid #3461ff;
+  padding: 2px;
+  border-radius: 50px;
+}
+.navbar__ .nav__block .block__2 .user_menu__ {
+  list-style: none;
+  cursor: pointer;
+  /* position: relative; */
+}
+.navbar__ .nav__block .block__2 .user_menu__ .name_view {
+  display: flex;
+  align-items: center;
+  font-weight: 450;
+  font-size: 15px;
+  line-height: 19px;
+  color: #3f5173;
+  padding: 0 10px;
+}
