@@ -1,10 +1,9 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-
+import "./style.css";
 function Auth() {
   return (
-    <div>
-      <h1>Register</h1>
+    <div className="auth__">
       <Outlet />
     </div>
   );
