@@ -15,18 +15,20 @@ import { useState } from "react";
 const Routers: React.FC<{}> = () => {
   const navigation = useNavigate();
   const location = useLocation();
-  const localniyUser: any = localStorage.getItem("user");
+  const localniyUser: any = window.localStorage.getItem("user");
   var arr: any = [];
   const [user, setUser] = useState<any>(localniyUser | arr);
   useEffect(() => {
     (async () => {
-      const a: any = await localStorage.getItem("user");
+      const a: any = await window.localStorage.getItem("user");
       setUser(a);
+      console.log("++++++++++++++++++++");
       console.log("data:" + a);
+      console.log("++++++++++++++++++++");
     })();
-  }, [localStorage]);
+  }, []);
   useEffect(() => {
-    if (user == null) {
+    if (user === null) {
       navigation("/auth/login");
     } else {
       if (location.pathname == "/") {

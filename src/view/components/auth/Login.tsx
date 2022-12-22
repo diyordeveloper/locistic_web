@@ -12,7 +12,7 @@ function Login() {
         username,
         password,
       };
-      localStorage.setItem("user", JSON.stringify(data));
+      window.localStorage.setItem("user", JSON.stringify(username));
       console.log(data);
 
       navigation("/dashboard");
