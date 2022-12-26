@@ -42,7 +42,7 @@ const Routers: React.FC<{}> = () => {
         <Route path="/auth/login" element={<Login />} />
       </Route>
       <Route path="/" element={<Home />}>
-        <Route index path="/dashboard" element={<Dashboard />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/loadboard" element={<LoadBoard />} />
         <Route path="/drivers" element={<Drivers />} />
         <Route path="/accounting" element={<Accounting />} />

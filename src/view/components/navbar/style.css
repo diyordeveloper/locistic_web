@@ -31,7 +31,7 @@
   outline: none;
   background: transparent;
   border: none;
-  padding: 13px 10px 10px 0;
+  padding: 10px 10px 10px 0;
   color: #3461ff;
   font-style: normal;
   font-weight: 450;
@@ -47,6 +47,10 @@
   background: transparent;
   border: none;
   padding: 10px;
+}
+.navbar__ .nav__block .block__1 .icons__{
+  display: flex;
+  align-items: center;
 }
 .navbar__ .nav__block .block__1 .icons__ a:nth-child(1) img {
   padding: 0 23px 0 28px;

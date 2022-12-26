@@ -1,10 +1,17 @@
-import React from "react";
-
+import React, { useState } from "react";
+import FiltersTop from "./topbar/filtersTop/FiltersTop";
+import SortingBtn from "./topbar/sortingBtns/SortingBtn";
+import "./style.css";
+import Table from "./table/Table";
 function LoadBoard() {
   return (
-    <div>
-      <h2>LoadBoard</h2>
-    </div>
+    <>
+      <div className="loadboard__">
+        {/* <FiltersTop /> */}
+        <SortingBtn />
+        <Table />
+      </div>
+    </>
   );
 }
 

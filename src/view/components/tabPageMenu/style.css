@@ -29,3 +29,7 @@
 .menu_bar__ .link_btn__ span {
   padding: 2px 0 0 17px;
 }
+
+.menu_bar__ .link_btn__:hover{
+  color: #3461ff; 
+}

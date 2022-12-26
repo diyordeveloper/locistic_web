@@ -1,12 +1,12 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
-import "./style.css";
 import LOGO from "../../assets/icons/LOGO.svg";
 import Search from "../../assets/icons/Search.svg";
 import Email from "../../assets/icons/Email.svg";
 import Notification from "../../assets/icons/Notification.svg";
 import Avatarka from "../../assets/images/Avatarka.png";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import "./style.css";
 const Navbar: React.FC<{}> = () => {
   return (
     <>
@@ -16,9 +16,9 @@ const Navbar: React.FC<{}> = () => {
         </a>
         <div className="nav__block">
           <div className="block__1">
-            <div className="search__">
+            <div className="search__ ">
               <img src={Search} alt="Error..." />
-              <input type="text" placeholder="Search" />
+              <input type={"text"} placeholder="Search" />
             </div>
             <div className="icons__">
               <a href="#">
