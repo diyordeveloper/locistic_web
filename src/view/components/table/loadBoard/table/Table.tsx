@@ -11,7 +11,7 @@ function Table() {
               <th>Load#</th>
               <th>W/O #</th>
               <th>Driver/Carrier</th>
-              <th>Ship Date</th>
+              <th>  Ship Date</th>
               <th>Del Date</th>
               <th>Custimer</th>
               <th>Origin</th>
