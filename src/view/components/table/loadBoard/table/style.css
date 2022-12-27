@@ -1,38 +1,129 @@
-.table__ {
+.tables {
   padding: 0px 16px 30px 16px;
 }
-table {
+.table__ {
   width: 100%;
+  border-collapse: collapse;
 }
-
-thead {
+.table__ .br_h {
+  margin: 8px 0;
 }
-thead tr {
-  border: 1px solid #d6e4ff;
-  border-radius: 3px;
-  /* background: #ffffff80; */
-  background: #fff;
-  /* padding: 0 18px; */
+.table__ .br_b {
+  margin: 4px 0;
 }
-
-tbody tr {
-  border: 1px solid #d6e4ff;
-  border-radius: 3px;
-  /* background: #ffffff80; */
-  background: #fff; 
-  margin: 10px 0;
-}
-thead tr th {
-  padding: 12px 20px;
+.table__ thead th {
+  background-color: #fff;
+  border-bottom: solid 1px #d6e4ff;
+  border-top: solid 1px #d6e4ff;
+  padding: 12px 14px;
   font-weight: 450;
-  font-size: 15px;
   line-height: 19px;
+  font-size: 15px;
   color: #687791;
 }
-tbody tr td {
-  padding: 12px 20px;
+.table__ thead th:first-child {
+  border-left: solid 1px #d6e4ff;
+}
+.table__ thead th:last-child {
+  border-right: solid 1px #d6e4ff;
+}
+.table__ thead th:first-child {
+  border-radius: 3px 0 0 3px;
+}
+.table__ thead th:last-child {
+  border-radius: 0 3px 3px 0;
+}
+.table__ tbody td {
+  border-bottom: solid 1px #d6e4ff;
+  border-top: solid 1px #d6e4ff;
+  background-color: #fff;
+  padding: 12px 14px;
   font-weight: 450;
-  font-size: 14px;
   line-height: 18px;
+  font-size: 14px;
   color: #3f5173;
+}
+.table__ tbody td:first-child {
+  border-left: solid 1px #d6e4ff;
+}
+.table__ tbody td:last-child {
+  border-right: solid 1px #d6e4ff;
+}
+.table__ tbody td:first-child {
+  border-radius: 3px 0 0 3px;
+}
+.table__ tbody td:last-child {
+  border-radius: 0 3px 3px 0;
+}
+
+/*  */
+.table__ tbody td .danger__,
+.table__ tbody td .success__ {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  position: relative;
+}
+.table__ tbody td .danger__::before,
+.table__ tbody td .success__::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 26px;
+  border-radius: 50px;
+  height: 26px;
+}
+.table__ tbody td .danger__ {
+  background: #ff1919;
+}
+.table__ tbody td .danger__::before {
+  background: #ff1a1a38;
+}
+
+.table__ tbody td .success__ {
+  background: #13ca5c;
+}
+.table__ tbody td .success__::before {
+  background: #13ca5c38;
+}
+
+/* select */
+.table__ tbody td .select_data__ {
+  border: none;
+  outline: none;
+  border: 1px solid #d6e4ff;
+  border-radius: 3px;
+  padding: 8px 10px;
+  width: 146px;
+  background: transparent;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("../../../../assets/icons/arrowbottom.svg");
+  background-size: 14px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) center;
+  cursor: pointer;
+  color: #3f5173;
+}
+/* Paginate------ */
+.paginate__ {
+  padding: 0px 16px 30px 16px;
+  text-align: center;
+}
+.paginate__ .btn_paginate {
+  width: 23px;
+  height: 23px;
+  border-radius: 50px;
+  transition: 0.1s;
+}
+.paginate__ .btn_paginate:hover {
+  transform: scale(1.2); 
+  background: #5076ff;
+  color: #ffffff;
+}
+.paginate__ .btn_paginate.active__ {
+  background: #3461ff;
+  color: #ffffff;
 }
