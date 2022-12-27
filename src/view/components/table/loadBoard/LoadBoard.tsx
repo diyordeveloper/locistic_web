@@ -7,7 +7,7 @@ function LoadBoard() {
   return (
     <>
       <div className="loadboard__">
-        {/* <FiltersTop /> */}
+        <FiltersTop />
         <SortingBtn />
         <Table />
       </div>

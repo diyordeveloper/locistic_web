@@ -110,7 +110,8 @@
 /* Paginate------ */
 .paginate__ {
   padding: 0px 16px 30px 16px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .paginate__ .btn_paginate {
   width: 23px;
@@ -119,11 +120,15 @@
   transition: 0.1s;
 }
 .paginate__ .btn_paginate:hover {
-  transform: scale(1.2); 
+  transform: scale(1.2);
   background: #5076ff;
   color: #ffffff;
 }
 .paginate__ .btn_paginate.active__ {
   background: #3461ff;
   color: #ffffff;
+}
+.css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  color: #fff;
+  background-color: #3461ff !important;
 }
