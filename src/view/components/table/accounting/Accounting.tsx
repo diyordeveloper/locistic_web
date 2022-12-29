@@ -1,9 +1,12 @@
 import React from "react";
+import SortingBtn from "./topbar/sortingBtns/SortingBtn";
+import Table from "./table/Table";
 
 function Accounting() {
   return (
-    <div>
-      <h1>Accounting</h1>
+    <div className="accounting__">
+      <SortingBtn />
+      <Table />
     </div>
   );
 }

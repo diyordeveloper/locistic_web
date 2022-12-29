@@ -1,0 +1,12 @@
+.user_rules__ .top_bar__ {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 81px 20px 16px;
+}
+.user_rules__ .top_bar__ .txt__ {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  color: #484d8c;
+}

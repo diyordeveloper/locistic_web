@@ -3,7 +3,11 @@ import AddIcon from "@mui/icons-material/Add";
 import Search from "../../../../../assets/icons/Search.svg";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import "./style.css";
-function SortingBtn() {
+
+interface Props {
+  setModalOpen: () => void;
+}
+function SortingBtn({ setModalOpen }: Props) {
   return (
     <>
       <div className="top_bar__">
@@ -29,7 +33,11 @@ function SortingBtn() {
               <KeyboardArrowDownIcon className="icon__" />
             </div>
           </div>
-          <div className="add_btn__">
+          <div
+            className="add_btn__"
+            // @ts-ignore
+            onClick={() => setModalOpen((p: any) => !p)}
+          >
             <span className="add_btn_txt__">New Active Load</span>
             <div className="add_btn_icon__">
               <AddIcon className="icon__" />

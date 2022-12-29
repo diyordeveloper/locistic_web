@@ -1,9 +1,12 @@
 import React from "react";
-
+import Table from "./table/Table";
+import SortingBtn from "./topbar/sortingBtns/SortingBtn";
+import "./style.css";
 function Drivers() {
   return (
-    <div>
-      <h1>Drivers</h1>
+    <div className="drivers__">
+      <SortingBtn />
+      <Table/>
     </div>
   );
 }

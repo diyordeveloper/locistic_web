@@ -1,17 +1,17 @@
 .tables {
   padding: 0px 16px 30px 16px;
 }
-.loadboard__ .table__ {
+.accounting__ .table__ {
   width: 100%;
   border-collapse: collapse;
 }
-.loadboard__ .table__ .br_h {
+.accounting__ .table__ .br_h {
   margin: 8px 0;
 }
-.loadboard__ .table__ .br_b {
+.accounting__ .table__ .br_b {
   margin: 4px 0;
 }
-.loadboard__ .table__ thead th {
+.accounting__ .table__ thead th {
   background-color: #fff;
   border-bottom: solid 1px #d6e4ff;
   border-top: solid 1px #d6e4ff;
@@ -21,19 +21,19 @@
   font-size: 15px;
   color: #687791;
 }
-.loadboard__ .table__ thead th:first-child {
+.accounting__ .table__ thead th:first-child {
   border-left: solid 1px #d6e4ff;
 }
-.loadboard__ .table__ thead th:last-child {
+.accounting__ .table__ thead th:last-child {
   border-right: solid 1px #d6e4ff;
 }
-.loadboard__ .table__ thead th:first-child {
+.accounting__ .table__ thead th:first-child {
   border-radius: 3px 0 0 3px;
 }
-.loadboard__ .table__ thead th:last-child {
+.accounting__ .table__ thead th:last-child {
   border-radius: 0 3px 3px 0;
 }
-.loadboard__ .table__ tbody td {
+.accounting__ .table__ tbody td {
   border-bottom: solid 1px #d6e4ff;
   border-top: solid 1px #d6e4ff;
   background-color: #fff;
@@ -43,29 +43,29 @@
   font-size: 14px;
   color: #3f5173;
 }
-.loadboard__ .table__ tbody td:first-child {
+.accounting__ .table__ tbody td:first-child {
   border-left: solid 1px #d6e4ff;
 }
-.loadboard__ .table__ tbody td:last-child {
+.accounting__ .table__ tbody td:last-child {
   border-right: solid 1px #d6e4ff;
 }
-.loadboard__ .table__ tbody td:first-child {
+.accounting__ .table__ tbody td:first-child {
   border-radius: 3px 0 0 3px;
 }
-.loadboard__ .table__ tbody td:last-child {
+.accounting__ .table__ tbody td:last-child {
   border-radius: 0 3px 3px 0;
 }
 
 /*  */
-.loadboard__ .table__ tbody td .danger__,
-.loadboard__ .table__ tbody td .success__ {
+.accounting__ .table__ tbody td .danger__,
+.accounting__ .table__ tbody td .success__ {
   width: 20px;
   height: 20px;
   border-radius: 50px;
   position: relative;
 }
-.loadboard__ .table__ tbody td .danger__::before,
-.loadboard__ .table__ tbody td .success__::before {
+.accounting__ .table__ tbody td .danger__::before,
+.accounting__ .table__ tbody td .success__::before {
   content: "";
   position: absolute;
   left: 50%;
@@ -75,22 +75,22 @@
   border-radius: 50px;
   height: 26px;
 }
-.loadboard__ .table__ tbody td .danger__ {
+.accounting__ .table__ tbody td .danger__ {
   background: #ff1919;
 }
-.loadboard__ .table__ tbody td .danger__::before {
+.accounting__ .table__ tbody td .danger__::before {
   background: #ff1a1a38;
 }
 
-.loadboard__ .table__ tbody td .success__ {
+.accounting__ .table__ tbody td .success__ {
   background: #13ca5c;
 }
-.loadboard__ .table__ tbody td .success__::before {
+.accounting__ .table__ tbody td .success__::before {
   background: #13ca5c38;
 }
 
 /* select */
-.loadboard__ .table__ tbody td .select_data__ {
+.accounting__ .table__ tbody td .select_data__ {
   border: none;
   outline: none;
   border: 1px solid #d6e4ff;
@@ -112,7 +112,7 @@
   padding: 0px 16px 30px 16px;
   display: flex;
   justify-content: center;
-}
+} 
 .css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
   color: #fff;
   background-color: #3461ff !important;

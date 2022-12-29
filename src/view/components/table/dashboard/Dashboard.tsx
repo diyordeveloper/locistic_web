@@ -1,8 +1,8 @@
-import React from "react";
-
+import React, { useState } from "react";
+import "./style.css";
 function Dashboard() {
   return (
-    <div>
+    <div className="dashboard__">
       <h1>Dashboard</h1>
     </div>
   );

@@ -1,0 +1,95 @@
+.trailers__ .top_bar__ {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 81px 20px 16px;
+}
+.trailers__ .top_bar__ .block__1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.trailers__ .top_bar__ .block__1 .txt__ {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  color: #484d8c;
+}
+.trailers__ .top_bar__ .block__1 .box__ {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 18px 0 16px;
+}
+.trailers__ .top_bar__ .block__1 .box__ .add_btn__ {
+  background: #ffffff;
+  border: 1px solid #d6e4ff;
+  border-radius: 3px;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #3461ff;
+  font-size: 15px;
+  line-height: 19px;
+  outline: none;
+  margin: 0 5px 0 0px;
+}
+.trailers__ .top_bar__ .block__1 .box__ .add_btn__:hover {
+  background: #3461ff;
+  color: #ffffff;
+  transition: 0.2s;
+}
+.trailers__ .top_bar__ .block__1 .box__ .search__ {
+  margin: 0 0 0 5px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #d6e4ff;
+  border-radius: 3px;
+}
+.trailers__ .top_bar__ .block__1 .box__ .search__ input {
+  outline: none;
+  background: transparent;
+  border: none;
+  padding: 10px 10px 10px 0;
+  color: #3461ff;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 15px;
+  line-height: 19px;
+}
+.trailers__ .top_bar__ .block__1 .box__ .search__ input::placeholder {
+  color: #3461ff;
+}
+.trailers__ .top_bar__ .block__1 .box__ .search__ img {
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  border: none;
+  padding: 10px;
+}
+.trailers__ .top_bar__ .add_btn__ {
+  margin-left: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #3461ff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.trailers__ .top_bar__ .add_btn__:hover {
+  background: #5076ff;
+  transition: 0.2s;
+}
+.trailers__ .top_bar__ .add_btn__ .add_btn_txt__ {
+  padding: 12px 10px 10px 10px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  color: #ffffff;
+  border-right: 1px solid #fff;
+}
+.trailers__ .top_bar__ .add_btn__ .add_btn_icon__ {
+  padding: 8px;
+  color: #fff;
+}

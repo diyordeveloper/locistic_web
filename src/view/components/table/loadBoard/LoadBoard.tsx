@@ -1,18 +1,30 @@
 import React, { useState } from "react";
 import FiltersTop from "./topbar/filtersTop/FiltersTop";
 import SortingBtn from "./topbar/sortingBtns/SortingBtn";
-import "./style.css";
 import Table from "./table/Table";
-function LoadBoard() {
+import Modal from "./modal/Modal";
+import "./style.css";
+
+const LoadBoard = () => {
+  const [modalOpen, setModalOpen] = useState<any>(false);
   return (
     <>
       <div className="loadboard__">
-        <FiltersTop />
-        <SortingBtn />
+        {/* <FiltersTop /> */}
+        <SortingBtn
+          // @ts-ignore
+          setModalOpen={setModalOpen}
+        />
         <Table />
       </div>
+      {modalOpen && (
+        <Modal
+          // @ts-ignore
+          setModalOpen={setModalOpen}
+        />
+      )}
     </>
   );
-}
+};
 
 export default LoadBoard;
