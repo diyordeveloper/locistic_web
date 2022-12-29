@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ClearIcon from "@mui/icons-material/Clear";
 import "./style.css";
 import OopsModal from "./oopsModal/OopsModal";
+import ModalBody from "./modalBody/ModalBody";
 interface Props {
   setModalOpen: () => void;
 }
@@ -17,7 +18,9 @@ function Modal({ setModalOpen }: Props) {
             className="icon__"
           />
         </div>
-        <div className="modal_body"></div>
+        <div className="modal_body">
+          <ModalBody />
+        </div>
         <div className="modal_footer__">
           <div className="btns__">
             <button

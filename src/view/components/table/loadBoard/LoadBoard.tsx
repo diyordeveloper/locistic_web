@@ -6,7 +6,7 @@ import Modal from "./modal/Modal";
 import "./style.css";
 
 const LoadBoard = () => {
-  const [modalOpen, setModalOpen] = useState<any>(false);
+  const [modalOpen, setModalOpen] = useState<any>(true);
   return (
     <>
       <div className="loadboard__">
