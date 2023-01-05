@@ -1,41 +1,32 @@
 import React from "react";
 import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
-import Home from "../components/home/Home";
-import Auth from "../components/auth/Auth";
-import Login from "../components/auth/Login";
-import Dashboard from "../components/table/dashboard/Dashboard";
-import LoadBoard from "../components/table/loadBoard/LoadBoard";
-import Drivers from "../components/table/drivers/Drivers";
-import Accounting from "../components/table/accounting/Accounting";
-import Trailers from "../components/table/trailers/Trailers";
-import UserRules from "../components/table/userRules/UserRules";
+import Home from "../pages/home/Home";
+import Auth from "../pages/auth/Auth";
+import Login from "../pages/auth/Login";
+import Dashboard from "../pages/table/dashboard/Dashboard";
+import LoadBoard from "../pages/table/loadBoard/LoadBoard";
+import Drivers from "../pages/table/drivers/Drivers";
+import Accounting from "../pages/table/accounting/Accounting";
+import Trailers from "../pages/table/trailers/Trailers";
+import UserRules from "../pages/table/userRules/UserRules";
 import { useEffect } from "react";
 import { useState } from "react";
 
 const Routers: React.FC<{}> = () => {
   const navigation = useNavigate();
   const location = useLocation();
-  const localniyUser: any = window.localStorage.getItem("user");
+
   var arr: any = [];
-  const [user, setUser] = useState<any>(localniyUser | arr);
+  const [user, setUser] = useState<any>("1");
   useEffect(() => {
-    (async () => {
-      const a: any = await window.localStorage.getItem("user");
-      setUser(a);
-      console.log("++++++++++++++++++++");
-      console.log("data:" + a);
-      console.log("++++++++++++++++++++");
-    })();
-  }, []);
-  useEffect(() => {
-    if (user === null) {
+    if (user === "") {
       navigation("/auth/login");
     } else {
       if (location.pathname == "/") {
         navigation("/dashboard");
       }
     }
-  }, []);
+  }, [user]);
   return (
     <Routes>
       <Route path="/auth" element={<Auth />}>

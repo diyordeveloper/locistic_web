@@ -1,0 +1,87 @@
+/* -----filters_bar__----- */
+.filters_bar__ {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 16px 30px 16px;
+  border-bottom: 1px solid #d6e4ff80;
+}
+.filters_bar__ .txt__ {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  color: #484d8c;
+}
+.filters_bar__ .filter_row__ {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.filters_bar__ .filter_row__ .block__1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.filters_bar__ .filter_row__ .block__1 .box__ {
+  display: flex;
+  flex-direction: column;
+  margin-right: 12px;
+  margin-top: 5px;
+}
+.filters_bar__ .filter_row__ .block__1 .box__ label {
+  font-weight: 450;
+  font-size: 15px;
+  line-height: 19px;
+  color: #687791;
+  cursor: pointer;
+}
+.filters_bar__ .filter_row__ .block__1 .box__ .input_date__ {
+  margin-top: 10px;
+}
+.filters_bar__ .filter_row__ .block__1 .box__ .select_data__ {
+  margin-top: 10px;
+  width: 138px;
+}
+.filters_bar__ .filter_row__ .block__2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.filters_bar__ .filter_row__ .block__2 button {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 700;
+}
+.filters_bar__ .filter_row__ .block__2 .btn_one {
+  background: #fff;
+  border: 1px solid #d6e4ff;
+  margin: 0 6px 0 0px;
+  padding: 10px 24px;
+  color: #3461ff;
+}
+.filters_bar__ .filter_row__ .block__2 .btn_one:hover {
+  color: #fff;
+  border: 1px solid #3461ff;
+  transition: 0.2s;
+  background: #3461ff;
+}
+.filters_bar__ .filter_row__ .block__2 .btn_two {
+  border: 1px solid #d6e4ff;
+  background: #d6e4ff;
+  color: #000;
+  margin: 0 0px 0px 6px;
+  padding: 10px 55px;
+}
+.filters_bar__ .filter_row__ .block__2 .btn_two.active__ {
+  border: 1px solid #3461ff;
+  background: #3461ff;
+  color: #fff;
+}
+.filters_bar__ .filter_row__ .block__2 .btn_two.active__:hover {
+  background: #5076ff;
+  border: 1px solid #5076ff;
+  transition: 0.2s;
+}

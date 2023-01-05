@@ -1,0 +1,105 @@
+.tables {
+  padding: 0px 16px 30px 16px;
+}
+.accounting__ .table__ {
+  width: 100%;
+  border-collapse: collapse;
+}
+.accounting__ .table__ .br_h {
+  margin: 8px 0;
+}
+.accounting__ .table__ .br_b {
+  margin: 4px 0;
+}
+.accounting__ .table__ thead th {
+  background-color: #fff;
+  border-bottom: solid 1px #d6e4ff;
+  border-top: solid 1px #d6e4ff;
+  padding: 12px 14px;
+  font-weight: 450;
+  line-height: 19px;
+  font-size: 15px;
+  color: #687791;
+}
+.accounting__ .table__ thead th:first-child {
+  border-left: solid 1px #d6e4ff;
+}
+.accounting__ .table__ thead th:last-child {
+  border-right: solid 1px #d6e4ff;
+}
+.accounting__ .table__ thead th:first-child {
+  border-radius: 3px 0 0 3px;
+}
+.accounting__ .table__ thead th:last-child {
+  border-radius: 0 3px 3px 0;
+}
+.accounting__ .table__ tbody td {
+  border-bottom: solid 1px #d6e4ff;
+  border-top: solid 1px #d6e4ff;
+  background-color: #fff;
+  padding: 12px 14px;
+  font-weight: 450;
+  line-height: 18px;
+  font-size: 14px;
+  color: #3f5173;
+}
+.accounting__ .table__ tbody td:first-child {
+  border-left: solid 1px #d6e4ff;
+}
+.accounting__ .table__ tbody td:last-child {
+  border-right: solid 1px #d6e4ff;
+}
+.accounting__ .table__ tbody td:first-child {
+  border-radius: 3px 0 0 3px;
+}
+.accounting__ .table__ tbody td:last-child {
+  border-radius: 0 3px 3px 0;
+}
+
+/*  */
+.accounting__ .table__ tbody td .danger__,
+.accounting__ .table__ tbody td .success__ {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  position: relative;
+}
+.accounting__ .table__ tbody td .danger__::before,
+.accounting__ .table__ tbody td .success__::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 26px;
+  border-radius: 50px;
+  height: 26px;
+}
+.accounting__ .table__ tbody td .danger__ {
+  background: #ff1919;
+}
+.accounting__ .table__ tbody td .danger__::before {
+  background: #ff1a1a38;
+}
+
+.accounting__ .table__ tbody td .success__ {
+  background: #13ca5c;
+}
+.accounting__ .table__ tbody td .success__::before {
+  background: #13ca5c38;
+}
+
+/* select */
+.accounting__ .table__ tbody td .select_data__ {
+  width: 146px;
+}
+/* Paginate------ */
+.paginate__ {
+  padding: 0px 16px 30px 16px;
+  display: flex;
+  justify-content: center;
+}
+.css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  color: #fff;
+  background-color: #3461ff !important;
+}

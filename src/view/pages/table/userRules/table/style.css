@@ -1,0 +1,125 @@
+.user_rules__ .tables {
+  padding: 0px 81px 30px 16px;
+}
+.user_rules__ .table__ {
+  width: 100%;
+  border-collapse: collapse;
+}
+.user_rules__ .table__ .br_h {
+  margin: 8px 0;
+}
+.user_rules__ .table__ .br_b {
+  margin: 4px 0;
+}
+.user_rules__ .table__ thead th {
+  background-color: #fff;
+  border-bottom: solid 1px #d6e4ff;
+  border-top: solid 1px #d6e4ff;
+  padding: 12px 14px;
+  font-weight: 450;
+  line-height: 19px;
+  font-size: 15px;
+  color: #687791;
+}
+.user_rules__ .table__ thead th:first-child {
+  border-left: solid 1px #d6e4ff;
+}
+.user_rules__ .table__ thead th:last-child {
+  border-right: solid 1px #d6e4ff;
+}
+.user_rules__ .table__ thead th:first-child {
+  border-radius: 3px 0 0 3px;
+}
+.user_rules__ .table__ thead th:last-child {
+  border-radius: 0 3px 3px 0;
+}
+.user_rules__ .table__ tbody td {
+  border-bottom: solid 1px #d6e4ff;
+  border-top: solid 1px #d6e4ff;
+  background-color: #fff;
+  padding: 12px 14px;
+  font-weight: 450;
+  line-height: 18px;
+  font-size: 14px;
+  color: #3f5173;
+}
+.user_rules__ .table__ tbody td:first-child {
+  border-left: solid 1px #d6e4ff;
+}
+.user_rules__ .table__ tbody td:last-child {
+  border-right: solid 1px #d6e4ff;
+}
+.user_rules__ .table__ tbody td:first-child {
+  border-radius: 3px 0 0 3px;
+}
+.user_rules__ .table__ tbody td:last-child {
+  border-radius: 0 3px 3px 0;
+}
+
+/* select */
+.user_rules__ .table__ tbody td .select_data__ {
+  border: none;
+  outline: none;
+  border: 1px solid #d6e4ff;
+  border-radius: 3px;
+  padding: 8px 40px 8px 10px;
+  width: 146px;
+  background: transparent;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("../../../../assets/icons/arrowbottom.svg");
+  background-size: 14px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) center;
+  cursor: pointer;
+  color: #3f5173;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 18px;
+}
+/*  */
+.user_rules__ .table__ tbody td .btn_views {
+  border: 1px solid #3461ff;
+  padding: 8px 17px;
+  border-radius: 3px;
+  font-weight: 450;
+  font-size: 15px;
+  line-height: 19px;
+  transition: 0.2s;
+  color: #3461ff;
+}
+.user_rules__ .table__ tbody td .btn_views:hover {
+  background: #5076ff;
+  color: #fff;
+}
+/*  */
+.user_rules__ .table__ tbody td .icons__ {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user_rules__ .table__ tbody td .icons__ .btn__ {
+  transition: 0.2s;
+}
+.user_rules__ .table__ tbody td .icons__ .btn__ .iocn__ {
+  font-size: 28px;
+}
+.user_rules__ .table__ tbody td .icons__ .btn__:hover .iocn__ {
+  transform: scale(1.1);
+}
+.user_rules__ .table__ tbody td .icons__ .btn__:nth-child(1) .iocn__ {
+  color: #3461ff;
+}
+.user_rules__ .table__ tbody td .icons__ .btn__:nth-child(2) .iocn__ {
+  color: #ff1a1a;
+}
+/* Paginate------ */
+.paginate__ {
+  padding: 0px 16px 30px 16px;
+  display: flex;
+  justify-content: center;
+}
+.css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  color: #fff;
+  background-color: #3461ff !important;
+}

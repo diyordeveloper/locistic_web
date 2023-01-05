@@ -1,0 +1,152 @@
+.trailers__ .tables {
+  padding: 0px 81px 30px 16px;
+}
+.trailers__ .table__ {
+  width: 100%;
+  border-collapse: collapse;
+}
+.trailers__ .table__ .br_h {
+  margin: 8px 0;
+}
+.trailers__ .table__ .br_b {
+  margin: 4px 0;
+}
+.trailers__ .table__ thead tr:nth-child(1) th {
+  border-bottom: none;
+}
+.trailers__ .table__ thead tr:nth-child(2) th {
+  border-top: none;
+}
+.trailers__ .table__ thead th {
+  background-color: #fff;
+  border-bottom: solid 1px #d6e4ff;
+  border-top: solid 1px #d6e4ff;
+  padding: 12px 14px;
+  font-weight: 450;
+  line-height: 19px;
+  font-size: 15px;
+  color: #687791;
+}
+.trailers__ .table__ thead th:first-child {
+  border-left: solid 1px #d6e4ff;
+}
+.trailers__ .table__ thead th:last-child {
+  border-right: solid 1px #d6e4ff;
+}
+.trailers__ .table__ thead th:first-child {
+  border-radius: 3px 0 0 3px;
+}
+.trailers__ .table__ thead th:last-child {
+  border-radius: 0 3px 3px 0;
+}
+.trailers__ .table__ tbody td {
+  border-bottom: solid 1px #d6e4ff;
+  border-top: solid 1px #d6e4ff;
+  background-color: #fff;
+  padding: 12px 14px;
+  font-weight: 450;
+  line-height: 18px;
+  font-size: 14px;
+  color: #3f5173;
+}
+.trailers__ .table__ tbody td:first-child {
+  border-left: solid 1px #d6e4ff;
+}
+.trailers__ .table__ tbody td:last-child {
+  border-right: solid 1px #d6e4ff;
+}
+.trailers__ .table__ tbody td:first-child {
+  border-radius: 3px 0 0 3px;
+}
+.trailers__ .table__ tbody td:last-child {
+  border-radius: 0 3px 3px 0;
+}
+.trailers__ .table__ thead th:nth-child(2) .input__ {
+  width: 62px;
+}
+.trailers__ .table__ thead .input__ {
+  width: 106px; 
+}
+.trailers__ .table__ thead .select_data__ { 
+  width: 120px; 
+}
+
+/* select */
+.trailers__ .table__ tbody td .select__ {
+  display: flex;
+  flex-direction: column;
+  width: 142px;
+  position: relative;
+}
+.trailers__ .table__ tbody td .select__ .select_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #13ca5c;
+  border-radius: 30px;
+  padding: 10px 16px;
+  cursor: pointer;
+  z-index: 1;
+}
+.trailers__ .table__ tbody td .select__ .select_head span {
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.trailers__ .table__ tbody td .select__ .select_head .icon__ {
+  font-size: 20px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.trailers__ .table__ tbody td .select__ .select_body {
+  position: absolute; 
+  width: 100%;
+  top: 20px;
+  right: 0;
+  background: #fff;
+  box-shadow: 0px 1px 17px #c4c4c440;
+  border-radius: 10px;
+}
+.trailers__ .table__ tbody td .select__ .select_body .text_box__ {
+  padding:25px 16px 0 16px;
+  display: flex;
+  flex-direction: column;
+}
+.trailers__ .table__ tbody td .select__ .select_body .text_box__ strong {
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 18px;
+  color: #3f5173; 
+}
+/*  */
+.trailers__ .table__ tbody td .icons__ {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.trailers__ .table__ tbody td .icons__ .btn__ {
+  transition: 0.2s;
+}
+.trailers__ .table__ tbody td .icons__ .btn__ .iocn__ {
+  font-size: 28px;
+}
+.trailers__ .table__ tbody td .icons__ .btn__:hover .iocn__ {
+  transform: scale(1.1);
+}
+.trailers__ .table__ tbody td .icons__ .btn__:nth-child(1) .iocn__ {
+  color: #3461ff;
+}
+.trailers__ .table__ tbody td .icons__ .btn__:nth-child(2) .iocn__ {
+  color: #ff1a1a;
+}
+/* Paginate------ */
+.paginate__ {
+  padding: 0px 16px 30px 16px;
+  display: flex;
+  justify-content: center;
+}
+.css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  color: #fff;
+  background-color: #3461ff !important;
+}
