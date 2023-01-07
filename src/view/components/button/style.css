@@ -1,0 +1,43 @@
+.add_btn_filters__ {
+  background: #ffffff;
+  border: 1px solid #d6e4ff;
+  border-radius: 3px;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #3461ff;
+  font-size: 15px;
+  line-height: 19px;
+  outline: none;
+}
+.add_btn_filters__:hover {
+  background: #3461ff;
+  color: #ffffff;
+  transition: 0.2s;
+}
+/*  */
+.added_btn__ {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #3461ff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.added_btn__:hover {
+  background: #5076ff;
+  transition: 0.2s;
+}
+.added_btn__ .add_btn_txt__ {
+  padding: 12px 10px 10px 10px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  color: #ffffff;
+  border-right: 1px solid #fff;
+}
+.added_btn__ .add_btn_icon__ {
+  padding: 8px;
+  color: #fff;
+}

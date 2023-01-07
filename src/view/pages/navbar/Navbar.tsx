@@ -7,6 +7,7 @@ import Notification from "../../assets/icons/Notification.svg";
 import Avatarka from "../../assets/images/Avatarka.png";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import "./style.css";
+import SearchInput from "../../components/input/SearchInput";
 const Navbar: React.FC<{}> = () => {
   return (
     <>
@@ -16,10 +17,7 @@ const Navbar: React.FC<{}> = () => {
         </a>
         <div className="nav__block">
           <div className="block__1">
-            <div className="search__ ">
-              <img src={Search} alt="Error..." />
-              <input type={"text"} placeholder="Search" />
-            </div>
+            <SearchInput placeholder="Search" />
             <div className="icons__">
               <a href="#">
                 <img src={Notification} alt="Error..." />

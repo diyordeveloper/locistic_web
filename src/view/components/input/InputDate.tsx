@@ -7,7 +7,7 @@ interface InputTextProps {
   placeholder?: string;
   style?: object;
   disabled?: boolean;
-  className?: string;
+  className?: string;        
   id?: string;
   name?: string;
   defaultValue?: string;

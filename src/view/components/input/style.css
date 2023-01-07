@@ -10,7 +10,7 @@
   font-size: 14px;
   line-height: 18px;
 }
-.InputDate { 
+.InputDate {
   outline: none;
   border: none;
   border: 1px solid #d6e4ff;
@@ -21,4 +21,35 @@
 .InputDate[type="date"]::-webkit-calendar-picker-indicator {
   background: url(../../assets/icons/Calendar.svg) no-repeat;
   cursor: pointer;
+}
+
+/* Search Input */
+
+.loadboard__ .top_bar__ .block__1 .box__ .search__ {
+  margin: 0 0 0 5px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #d6e4ff;
+  border-radius: 3px;
+}
+.loadboard__ .top_bar__ .block__1 .box__ .search__ input {
+  outline: none;
+  background: transparent;
+  border: none;
+  padding: 10px 10px 10px 0;
+  color: #3461ff;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 15px;
+  line-height: 19px;
+}
+.loadboard__ .top_bar__ .block__1 .box__ .search__ input::placeholder {
+  color: #3461ff;
+}
+.loadboard__ .top_bar__ .block__1 .box__ .search__ img {
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  border: none;
+  padding: 10px;
 }

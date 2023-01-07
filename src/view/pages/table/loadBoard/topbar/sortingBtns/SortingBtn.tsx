@@ -1,8 +1,9 @@
 import React from "react";
-import AddIcon from "@mui/icons-material/Add";
-import Search from "../../../../../assets/icons/Search.svg";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import NewAdd from "../../../../../components/button/NewAdd";
+import AddFilters from "../../../../../components/button/AddFilters";
 import "./style.css";
+import SearchInput from "../../../../../components/input/SearchInput";
 
 interface Props {
   setModalOpen: () => void;
@@ -14,14 +15,8 @@ function SortingBtn({ setModalOpen }: Props) {
         <div className="block__1">
           <span className="txt__">Available Loads</span>
           <div className="box__">
-            <button className="add_btn__">
-              <AddIcon className="icon__" />
-              Add filters
-            </button>
-            <div className="search__">
-              <img src={Search} alt="Error..." />
-              <input type="text" placeholder="Search" />
-            </div>
+            <AddFilters text="Add filters" />
+            <SearchInput placeholder="Search" />
           </div>
         </div>
         <div className="block__2">
@@ -33,16 +28,11 @@ function SortingBtn({ setModalOpen }: Props) {
               <KeyboardArrowDownIcon className="icon__" />
             </div>
           </div>
-          <div
-            className="add_btn__"
+          <NewAdd
             // @ts-ignore
             onClick={() => setModalOpen((p: any) => !p)}
-          >
-            <span className="add_btn_txt__">New Active Load</span>
-            <div className="add_btn_icon__">
-              <AddIcon className="icon__" />
-            </div>
-          </div>
+            text={"New Active Load"}
+          />
         </div>
       </div>
       <div className="btn_block__">
